@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 .container {
@@ -30,9 +31,11 @@ form{
 
 .field {
   width: 90%;
-  padding: 10px 0;
+  padding: 10px 0 10px 10px;
   margin: 20px 0;
   color: gray;
+  border-radius: 10px;
+  border: 1px solid gray;
 }
 
 .method {
@@ -81,9 +84,12 @@ select {
   width: 300px;
   height: 40px;
   background-color:  #965732;
-  border: 1px solid  #965732;
   margin: 5px auto;
   color: white;
+}
+
+.button :hover{
+  background-color: #dec582;
 }
 
 .or {
@@ -93,13 +99,21 @@ select {
 }
 
 .or:before{
-  content: " - ";
-  color: white;
+  content: ' ';
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  border-top: 2px solid white;
+  margin: 0 5px 0 0 ;
 }
 
 .or:after{
-  content: ' - ' ;
-  color: white;
+  content: ' ';
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  border-top: 2px solid white;
+  margin: 0 0 0 5px;
 }
 
 p{
@@ -130,6 +144,6 @@ a{
 .button {
   width: 310px;
   height: 50px;
-  border: 1px solid  #dec582;
+  transition-duration: 2s;
   margin: 0 auto;
 }

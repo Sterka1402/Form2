@@ -11,15 +11,13 @@
     <h1>Flat Reguest Form</h1>
     <form action="index.html" method="get">
       <h2>Reguest a callback from</h2>
-      <label>
-        <input type="text" name="fistname" class="field" placeholder="Your Name">
-        <input type="email" name="email" class="field" placeholder="Your Email">
-        <input type="number" name="phone" class="field" placeholder="Your Phone">
-      </label> 
+      <input type="text" name="fistname" class="field" placeholder="Your Name">
+      <input type="email" name="email" class="field" placeholder="Your Email">
+      <input type="tel" name="phone" class="field" placeholder="Your Phone">
       <h2>Preferred Contact Method</h2>
       <div class="method">
         <label>
-          <input type="radio" name="method">
+          <input type="radio" name="method" checked>
           <span class="custom-radio"></span>
           Email
         </label>
@@ -30,8 +28,7 @@
         </label>
       </div>
     <h2>Services</h2>
-    <label>
-     <select name="services" class="field">
+    <select name="services" class="field">
         <option value="select" selected disabled>Select</option>
         <option value="hosted PBX">Hosted PBX</option>
         <option value="Voice over IP">Voice over IP</option>
@@ -40,11 +37,8 @@
         <option value="NBN">NBN</option>
         <option value="Web development">Web development</option>
       </select>
-    </label>
     <div class="button">
-      <label>
-        <input type="Submit" class="field submit">
-      </label>
+      <input type="Submit" class="field submit">
     </div>
     </form>
     <div class="or">OR</div>
