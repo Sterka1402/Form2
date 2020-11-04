@@ -5,12 +5,16 @@
   outline: none;
 }
 
+body {
+  background-color: #dec582;
+}
+
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-color: #dec582;
   padding: 20px;
 }
+
 h1{
   text-align: center;
   color: white;
@@ -93,7 +97,6 @@ select {
 }
 
 .or {
-  background-color:  #dec582;
   text-align: center;
   color: white;
 }
@@ -119,7 +122,7 @@ select {
 p{
   text-align: center;
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .icon{
