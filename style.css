@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: 'Varela Round', Arial, sans-serif;
   background-color: #dec582;
 }
 
@@ -36,9 +37,9 @@ form{
 .field {
   width: 90%;
   padding: 10px 0 10px 10px;
-  margin: 20px 0;
+  margin: 10px 0;
   color: gray;
-  border-radius: 10px;
+  border-radius: 3px;
   border: 1px solid gray;
 }
 
@@ -47,6 +48,11 @@ form{
   margin: 20px;
   font-size: 20px;
   color: gray;
+}
+
+.method :hover{
+  transition-duration: 2s;
+  cursor: pointer;
 }
 
 input[type="radio"] {
@@ -90,10 +96,12 @@ select {
   background-color:  #965732;
   margin: 5px auto;
   color: white;
+  transition-duration: 2s;
 }
 
 .button :hover{
   background-color: #dec582;
+  cursor: pointer;
 }
 
 .or {
@@ -147,6 +155,5 @@ a{
 .button {
   width: 310px;
   height: 50px;
-  transition-duration: 2s;
   margin: 0 auto;
 }
